@@ -1,0 +1,96 @@
+:root {
+    --title-text-color: #2E2F42;
+    --primary-text-color: #434455;
+    --primary-text-white-color: #ffffff;
+    --dark-bg-color: #2E2F42;
+    --primary-bg-color: #E5E5E5;
+    --light-bg-color: #F4F4FD;
+    --acent-color: #4D5AE5;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color)
+}
+
+
+
+/* REPETA */
+:root {
+    --primary-text-color: #2E2F42;
+    --title-text-color: #434455;
+    --acent-color: #4D5AE5;
+    --primary-white-color: #fffff;
+}
+
+body {
+    background-color: #E5E5E5;
+    color: var(--primary-text-color)
+}
+
+/* Ð²Ð¸ÐºÐ¾Ñ€Ð¸ÑÑ‚Ð°Ð½Ð½Ñ Ð¿ÐµÑ€ÐµÐ¼Ñ–Ð½Ð½Ð¾Ñ— Ð´Ð»Ñ Ð·Ð°Ð´Ð°Ð½Ð½Ñ ÐºÐ¾Ð»ÑŒÐ¾Ñ€Ñƒ Ñ‡ÐµÑ€ÐµÐ· css Ð·Ð¼Ñ–Ð½Ð½Ñƒ :root*/
+
+/* Ð¿Ñ€Ð¸Ð±Ð¸Ñ€Ð°Ñ” ÐºÑ€Ð°Ð¿Ð¾Ñ‡ÐºÐ¸ Ð·Ñ– ÑÐ¿Ð¸ÑÐºÑ–Ð² */
+.list {
+    list-style: none;
+}
+
+
+.logo {
+    color: #2E2F42;
+}
+
+/* site nav */
+/* .site-nav a {
+    color: #2E2F42;
+} Ñ‚Ðµ Ð¶ ÑÐ°Ð¼Ðµ, Ñ‰Ð¾ Ñ– Ð²Ð°Ñ€Ñ–Ð°Ð½Ñ‚ Ð½Ð¸Ð¶Ñ‡Ðµ Ð· ÐºÐ»Ð°ÑÐ°Ð¼Ð¸ ÐºÑ€Ð°Ñ‰Ðµ*/
+.site-nav .link {
+    color: #2E2F42;
+}
+
+.site-nav .link:hover,
+.site-nave .link:focus {
+    color: red;
+}
+
+.site-nav .link.current {
+    color: var(--primary-text-color);
+}
+
+/* Section */
+.section-title {
+    color: #2E2F42;
+}
+
+/* Hero */
+.hero-title {
+    color: #FFFFFF;
+}
+
+/* Feature-list */
+.feature-list .title {
+    color: #000000;
+}
+
+.feature-list .link {
+    color: aqua;
+}
+
+/* Button */
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--acent-color);
+
+}
+
+.button.secondary {
+    color: var(--acent-color);
+    background-color: var(--primary-white-color)
+}
+
+/* ÑÑ‚Ð¸Ð»Ð¸ Ð´Ð»Ñ portfolio */
