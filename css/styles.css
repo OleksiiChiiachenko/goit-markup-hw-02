@@ -26,18 +26,24 @@
 /* згенеровані через ФІГМУ стилі */
 
 /* bacic styles */
+.link {
+    text-decoration: none
+}
+
+.list {
+    list-style: none;
+}
 
 /* nav */
 .logo-link {
     color: var(--acent-color);
-    font: var(--secondary-font);
+    font-family: "Raleway", sans-serif, ;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
 }
 
 .logo-text {
@@ -63,9 +69,7 @@ body {
 
 .header-list {}
 
-.header-item {
-    list-style: none;
-}
+.header-item {}
 
 .header-link {
     color: var(--title-text-color);
@@ -74,8 +78,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
-    list-style: none;
 }
 
 .header-link:hover,
@@ -88,9 +90,7 @@ body {
 
 .contacts-list {}
 
-.contacts-item {
-    list-style: none;
-}
+.contacts-item {}
 
 .contacts-link {
     color: var(--primary-text-color);
@@ -148,9 +148,7 @@ body {
 }
 
 
-.goals-list {
-    list-style: none;
-}
+.goals-list {}
 
 .goals-item {}
 
@@ -175,9 +173,7 @@ body {
     text-transform: capitalize;
 }
 
-.services-list {
-    list-style: none;
-}
+.services-list {}
 
 .services-item {}
 
@@ -214,9 +210,7 @@ body {
 /* content section */
 .content {}
 
-.content-list {
-    list-style: none;
-}
+.content-list {}
 
 .content-item {}
 
@@ -241,9 +235,7 @@ body {
 
 .projects-inisible-title {}
 
-.projects-list {
-    list-style: none;
-}
+.projects-list {}
 
 .projects-item {}
 
