@@ -86,8 +86,7 @@ body {
 }
 
 .header-link:hover,
-.header-link:focus,
-.header-link:active {
+.header-link:focus {
     color: #404bbf;
 }
 
@@ -215,7 +214,9 @@ body {
     background-color: #FFFFFF;
 }
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF
+}
 
 .team-img {}
 
