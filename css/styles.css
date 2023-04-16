@@ -68,7 +68,9 @@ body {
 
 .logo-link {}
 
-.logo-text {}
+.logo-text {
+    color: var(--dark-bg-color)
+}
 
 .header-list {}
 
@@ -208,7 +210,7 @@ body {
 }
 
 .team-list {
-    background-color: #FFFFFF
+    background-color: var(--primary-text-white-color)
 }
 
 .team-item {}
