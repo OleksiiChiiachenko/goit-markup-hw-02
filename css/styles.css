@@ -88,7 +88,7 @@ body {
 .header-link:hover,
 .header-link:focus,
 .header-link:active {
-    color: var(--active-color);
+    color: #404bbf;
 }
 
 .contacts {
@@ -146,7 +146,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: var(--active-color);
+    background-color: #404BBF;
     color: var(--primary-text-white-color)
 }
 
@@ -212,7 +212,7 @@ body {
 }
 
 .team-list {
-    background-color: var(--primary-text-white-color)
+    background-color: #FFFFFF;
 }
 
 .team-item {}
@@ -259,7 +259,7 @@ body {
 .content-btn:hover,
 .content-btn:focus,
 .content-btn:active {
-    background-color: var(--active-color);
+    background-color: #404BBF;
     color: var(--primary-text-white-color);
 }
 
@@ -299,7 +299,7 @@ body {
 .logo-link {}
 
 .logo-text {
-    color: #f4f4fd;
+    color: var(--title-text-color);
 }
 
 .footer-desc {
