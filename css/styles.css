@@ -173,7 +173,9 @@ body {
 
 /* services */
 
-.services {}
+.services {
+    background-color: var(--light-bg-color)
+}
 
 .services-title {
     color: var(--title-text-color);
@@ -183,6 +185,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center
 }
 
 .services-list {}
@@ -191,11 +194,22 @@ body {
 
 /* team */
 
-.team {}
+.team {
+    background-color: var(--light-bg-color);
+}
 
-.team-title {}
+.team-title {
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
+}
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF
+}
 
 .team-item {}
 
@@ -271,11 +285,15 @@ body {
 
 /* footer */
 
-.footer {}
+.footer {
+    background-color: var(--dark-bg-color);
+}
 
 .logo-link {}
 
-.logo-text {}
+.logo-text {
+    color: #f4f4fd;
+}
 
 .footer-desc {
     color: var(--primary-text-light-color);
