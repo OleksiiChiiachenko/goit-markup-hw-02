@@ -37,13 +37,14 @@
 /* nav */
 .logo-link {
     color: var(--acent-color);
-    font-family: "Raleway", sans-serif, ;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
 }
 
 .logo-text {
@@ -59,7 +60,9 @@ body {
 
 
 /* header styles */
-.header {}
+.header {
+    background-color: var(--dark-bg-color);
+}
 
 .header-nav {}
 
@@ -86,7 +89,9 @@ body {
     color: var(--active-color);
 }
 
-.contacts {}
+.contacts {
+    font-style: normal
+}
 
 .contacts-list {}
 
@@ -94,7 +99,7 @@ body {
 
 .contacts-link {
     color: var(--primary-text-color);
-    font-style: normal;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -117,14 +122,22 @@ body {
     font-family: "Roboto";
     font-weight: 700;
     font-style: normal;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-decoration: none;
     text-transform: none;
+    text-align: center
 }
 
 .hero-btn {
+    font-family: inherit;
+    background-color: #4D5AE5;
     color: var(--primary-text-white-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -132,8 +145,6 @@ body {
     background-color: var(--active-color);
     color: var(--primary-text-white-color)
 }
-
-
 
 /* goals */
 .goals {}
@@ -143,7 +154,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
@@ -155,8 +166,9 @@ body {
 .goals-desc {
     color: var(--primary-text-color);
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+
 }
 
 /* services */
