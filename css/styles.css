@@ -85,8 +85,10 @@ body {
     letter-spacing: 0.02em;
 }
 
-.header-link:hover .header-link:focus {
+.header-link:hover,
+.header-link:focus {
     color: #404bbf;
+
 }
 
 .contacts {
@@ -109,7 +111,7 @@ body {
 
 .contacts-link:hover,
 .contacts-link:focus {
-    color: color: #404bbf;
+    color: #404bbf;
 }
 
 /* <  hero section */
@@ -298,7 +300,7 @@ body {
 .logo-link {}
 
 .logo-text {
-    color: var(--title-text-color);
+    color: #f4f4fd
 }
 
 .footer-desc {
