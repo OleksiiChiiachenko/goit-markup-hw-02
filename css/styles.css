@@ -48,7 +48,7 @@
 }
 
 .logo-text {
-    color: var(--title-text-color);
+    color: #f4f4fd;
 }
 
 
@@ -85,8 +85,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-.header-link:hover,
-.header-link:focus {
+.header-link:hover .header-link:focus {
     color: #404bbf;
 }
 
@@ -109,9 +108,8 @@ body {
 }
 
 .contacts-link:hover,
-.contacts-link:focus,
-.contacts-link:active {
-    color: var(--active-color);
+.contacts-link:focus {
+    color: color: #404bbf;
 }
 
 /* <  hero section */
