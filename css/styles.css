@@ -8,10 +8,9 @@
     --primary-bg-color: #E5E5E5;
     --light-bg-color: #F4F4FD;
     --acent-color: #4D5AE5;
-    --active-color: #404BBF;
-
-    /* додані через ФІГМУ */
-    --color-green: #31d0aa;
+    --active-color: #404BBF
+        /* додані через ФІГМУ */
+        --color-green: #31d0aa;
     --color-light-slate: #8e8f99;
     --color-cornflower: #e7e9fc;
     --color-dairy: #fcfcfc;
@@ -32,6 +31,7 @@
 
 .list {
     list-style: none;
+    background-color: #FFFFFF
 }
 
 /* nav */
@@ -48,7 +48,7 @@
 }
 
 .logo-text {
-    color: var(--dark-bg-color);
+    color: var(--title-text-color);
 }
 
 
@@ -116,7 +116,9 @@ body {
 }
 
 /* <  hero section */
-.hero {}
+.hero {
+    background-color: var(--dark-bg-color);
+}
 
 .hero-title {
     color: var(--primary-text-white-color);
@@ -243,12 +245,15 @@ body {
 .content-item {}
 
 .content-btn {
-    color: var(--active-color);
+    color: var(--acent-color);
+    background-color: var(--light-bg-color);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
 
 .content-btn:hover,
