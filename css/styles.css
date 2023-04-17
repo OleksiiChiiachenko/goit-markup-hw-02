@@ -302,7 +302,7 @@ body {
 .logo-link {}
 
 .footer-logo-text {
-    color: var(--title-text-color)
+    color: #f4f4fd
 }
 
 .footer-desc {
