@@ -8,9 +8,9 @@
     --primary-bg-color: #E5E5E5;
     --light-bg-color: #F4F4FD;
     --acent-color: #4D5AE5;
-    --active-color: #404BBF
-        /* додані через ФІГМУ */
-        --color-green: #31d0aa;
+    --active-color: #404BBF;
+    /* додані через ФІГМУ */
+    --color-green: : #31d0aa;
     --color-light-slate: #8e8f99;
     --color-cornflower: #e7e9fc;
     --color-dairy: #fcfcfc;
@@ -22,7 +22,7 @@
 
 }
 
-/* згенеровані через ФІГМУ стилі */
+
 
 /* bacic styles */
 .link {
@@ -266,7 +266,7 @@ body {
     color: var(--primary-text-white-color);
 }
 
-/* Projects section */
+/* Projects  */
 .projects {}
 
 .projects-inisible-title {}
@@ -302,7 +302,7 @@ body {
 .logo-link {}
 
 .footer-logo-text {
-    color: #f4f4fd
+    color: var(--primary-text-light-color)
 }
 
 .footer-desc {
