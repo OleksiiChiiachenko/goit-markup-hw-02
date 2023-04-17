@@ -63,7 +63,7 @@ body {
 }
 
 .header-logo-text {
-    color: var(--primary-text-light-color);
+    color: var(--title-text-color);
 }
 
 .header-nav {}
@@ -302,7 +302,7 @@ body {
 .logo-link {}
 
 .footer-logo-text {
-    color: var(--primary-text-light-color)
+    color: var(--title-text-color)
 }
 
 .footer-desc {
